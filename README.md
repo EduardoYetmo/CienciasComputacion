@@ -1,2 +1,2 @@
 # CienciasComputacion
-Practicas del curso de Temas Selectos de la Computación
+Prácticas del curso de Temas Selectos de la Computación.
