@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tarea5">
+    <meta name="keywords" content="HTML, CSS, Tarea5, Video, Logo">
+    <meta name="author" content="José Eduardo Castillo Dimas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/img.ico" type="image/x-icon">
+    <link rel="stylesheet" href="resources/style.css">
+    <script src="resources/scripts.js"></script>
+    <title>Integración de Video y Gráficos con JavaScript</title>
+</head>
+
+<body>
+    <header id="titulo">
+        <h1>Integración de video y gráficos con JavaScript</h1>
+    </header>
+
+    <section>
+        <div id="subt"><h1>Video</h1></div>
+    </section>
+
+    <section id="video">
+        <video id="medio" poster="imagenes/imagen1.jpg">
+            <source src="videos/video1.mp4">
+        </video>
+
+        <nav id="botones">
+            <div id="playpausa">
+                <input type="button" id="reproducir">
+            </div>
+            <div id="tiempo">
+                <p id="tiempoActual">0:0</p>
+            </div>
+            <div id="barra">
+                <div id="progreso"></div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="cajacanvas">
+        <div id="dibujo">
+            <h1>Logo</h1>
+            <canvas id="pikachuCanvas" width="700" height="300"></canvas>
+        </div>
+    </section>
+
+</body>
+
+</html>
