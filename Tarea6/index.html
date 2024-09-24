@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contenido XML en una BD API indexedDB y File</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Tarea 6">
+        <meta name="keywords" content="HTML, CSS, JS, API, indexedDB, File,">
+        <meta name="author" content="José Eduardo Castillo Dimas">
+        <link rel="icon" href="imagenes/img.ico" type="image/x-icon">
+        <link rel="stylesheet" href="recursos/estilos.css">
+    </head>
+
+    <body>
+        <header id="titulo">
+            <h1>Contenido Discografías</h1>
+        </header>
+        
+        <div class="contenedor">
+            <div class="contenido1">
+                <section class="formularios" id="cajaformularios">
+                    <h2>Formulario de Discografías</h2>
+                    <form name="formulario">
+                        <label for="artista">Artista: </label><br>
+                        <input type="text" id="artista" name="artista"><br>
+                        <label for="album">Album: </label><br>
+                        <input type="text" id="album" name="album"><br>
+                        <label for="canciones">Canciones: </label><br>
+                        <input type="text" id="canciones" name="canciones"><br>
+                        <label for="anio">Año: </label><br>
+                        <input type="text" id="anio" name="anio"><br>
+                        <label for="genero">Género: </label><br>
+                        <input type="text" id="genero" name="genero"><br>
+                        <button type="button" id="guardar">Guardar</button>
+                        <button type="button" id="mostrarLista">Mostrar BD</button>
+                    </form>
+                </section>
+            </div>
+            <div class="contenido2">
+                <section class="formularios" id="cajaarchivos">
+                    <section class="busqueda">
+                        <h2>Buscar artista: </h2>
+                        <form name="busquedaForm">
+                            <input type="text" id="busca" name="buscar" placeholder="Introduce el nombre del artista"><br>
+                            <button type="button" id="buscar">Buscar</button>
+                        </form>
+                    </section>
+                    <section id="subir">
+                        <h2>Subir archivo: </h2>
+                        <form name="formulario">
+                            <label for="archivos">Selecciona un archivo: </label><br>
+                            <input type="file" id="archivos" name="archivos"><br>
+                        </form>
+                    </section>
+                </section>
+            </div>
+            <div class="contenido3">
+                <section class="formularios" id="cajadatos">
+                    <p>Información no disponible</p>
+                </section>
+            </div>
+        </div>
+        
+        <div id="resultadoBusqueda"></div> <!-- Se añade esta sección para mostrar resultados de búsqueda -->
+    
+        <script src="recursos/script.js"></script> <!-- Enlazamos el archivo JavaScript -->
+    </body>
+
+    <footer>
+        <hr class="reducir-hr">
+        <div class="contenido-footer">
+            <address><em>Universidad Autónoma Metropolitana Unidad Iztapalapa. Iztapalapa, Ciudad de México</em></address>
+            <p><em>© Derechos reservados 2024. José Eduardo Castillo Dimas.</em></p>
+        </div>
+        <div class="spacer"></div>
+    </footer>
+
+</html>

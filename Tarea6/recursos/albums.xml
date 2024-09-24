@@ -1,0 +1,72 @@
+<albums>
+    <album>
+        <artist>AC/DC</artist>
+        <title>Back in Black</title>
+        <songs>10</songs>
+        <year>1980</year>
+        <genre>Hard Rock</genre>
+    </album>
+    <album>
+        <artist>The Beatles</artist>
+        <title>Abbey Road</title>
+        <songs>17</songs>
+        <year>1969</year>
+        <genre>Rock</genre>
+    </album>
+    <album>
+        <artist>Daddy Yankee</artist>
+        <title>Barrio Fino</title>
+        <songs>21</songs>
+        <year>2004</year>
+        <genre>Reggaetón</genre>
+    </album>
+    <album>
+        <artist>Don Omar</artist>
+        <title>The Last Don</title>
+        <songs>12</songs>
+        <year>2003</year>
+        <genre>Reggaetón</genre>
+    </album>
+    <album>
+        <artist>Panteón Rococó</artist>
+        <title>A la Izquierda de la Tierra</title>
+        <songs>12</songs>
+        <year>1999</year>
+        <genre>Rock Latino</genre>
+    </album>
+    <album>
+        <artist>Los Caligaris</artist>
+        <title>Circología</title>
+        <songs>17</songs>
+        <year>2015</year>
+        <genre>Ska</genre>
+    </album>
+    <album>
+        <artist>Banda MS</artist>
+        <title>Que Bendición</title>
+        <songs>15</songs>
+        <year>2016</year>
+        <genre>Banda</genre>
+    </album>
+    <album>
+        <artist>La Adictiva Banda San José de Mesillas</artist>
+        <title>Durmiendo en el Lugar Equivocado</title>
+        <songs>15</songs>
+        <year>2014</year>
+        <genre>Banda</genre>
+    </album>
+    <album>
+        <artist>Sin Bandera</artist>
+        <title>Sin Bandera</title>
+        <songs>12</songs>
+        <year>2001</year>
+        <genre>Pop</genre>
+    </album>
+    <album>
+        <artist>¿Con Quién Se Quedo El Perro</artist>
+        <title>Jesse y Joy</title>
+        <songs>12</songs>
+        <year>2011</year>
+        <genre>Pop</genre>
+    </album>
+</albums>
